@@ -1,0 +1,50 @@
+{
+  "name": "music-video-app",
+  "version": "1.0.0",
+  "main": "expo-router/entry",
+  "private": true,
+  "scripts": {
+    "start": "expo start",
+    "ios": "expo run:ios",
+    "android": "expo run:android",
+    "web": "expo start --web",
+    "test": "jest",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "expo": "~50.0.0",
+    "expo-av": "~13.10.5",
+    "expo-constants": "~15.4.5",
+    "expo-file-system": "~16.0.9",
+    "expo-linking": "~6.2.2",
+    "expo-router": "~3.4.8",
+    "expo-status-bar": "~1.11.1",
+    "react": "18.2.0",
+    "react-native": "0.73.6",
+    "react-native-gesture-handler": "~2.14.0",
+    "react-native-safe-area-context": "4.8.2",
+    "react-native-screens": "~3.29.0",
+    "@react-native-async-storage/async-storage": "1.23.1",
+    "@reduxjs/toolkit": "^2.2.6",
+    "react-redux": "^9.1.2",
+    "@tanstack/react-query": "^5.51.21",
+    "axios": "^1.7.2",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/react": "~18.2.45",
+    "@types/react-test-renderer": "^18.2.7",
+    "@typescript-eslint/eslint-plugin": "^7.18.0",
+    "@typescript-eslint/parser": "^7.18.0",
+    "eslint": "^8.57.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-react": "^7.35.0",
+    "jest": "^29.7.0",
+    "react-test-renderer": "18.2.0",
+    "@testing-library/react-native": "^12.7.2",
+    "ts-jest": "^29.2.5",
+    "typescript": "^5.3.3",
+    "whatwg-fetch": "^3.6.20"
+  }
+}

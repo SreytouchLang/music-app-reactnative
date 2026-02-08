@@ -1,0 +1,23 @@
+{
+  "expo": {
+    "name": "MusicTube",
+    "slug": "music-video-app",
+    "scheme": "musictube",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "plugins": [
+      "expo-router",
+      "expo-av"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.sreytouch.musictube"
+    },
+    "android": {
+      "package": "com.sreytouch.musictube"
+    },
+    "web": {
+      "bundler": "metro"
+    }
+  }
+}
